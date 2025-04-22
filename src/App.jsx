@@ -1,9 +1,16 @@
+import "./styles/style.scss";
+import Navbar from "./sections/navbar";
+import Hero from "./sections/hero";
+import Features from "./sections/features";
+import Footer from "./sections/footer";
 function App() {
   return (
-    <div>
-      <h1>Merhaba</h1>
-      <p>Bu bir denem yazısıdır.</p>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Features />
+      <Footer />
+    </>
   );
 }
 
